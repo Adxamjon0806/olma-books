@@ -31,7 +31,7 @@ const Register = () => {
         </div>
         <div className="btns">
           <button className="register_btn">Login</button>
-          <Link className="login_btn" to={"/login"}>
+          <Link className="login_btn" to={"/registration"}>
             Register
           </Link>
         </div>
