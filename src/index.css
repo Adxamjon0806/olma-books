@@ -97,6 +97,72 @@ code {
   text-decoration: none;
 }
 
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 45px;
+  box-shadow: 0 6px 3px 0 rgba(203, 203, 203, 0.2);
+}
+
+nav input {
+  width: 800px;
+  height: 50px;
+  background: #f4f4ff;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  padding: 0 40px;
+}
+
+nav .search__div {
+  position: relative;
+}
+
+nav .search__div img {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+
+nav .nav_links {
+  display: flex;
+  gap: 15px;
+}
+
+nav .nav_links .nav_link {
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  background: #f4f4ff;
+  border-radius: 8px;
+}
+
+.carousel__sec {
+  width: 100%;
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__sec .carousel {
+  width: 1200px;
+}
+
+.carousel__sec .carousel .carousel__item {
+  position: relative;
+}
+
+.carousel__sec .carousel .carousel__item p {
+  position: absolute;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
 @media screen and (max-width: 900px) {
   .registration_sec .registration_sec_picture {
     display: none;
