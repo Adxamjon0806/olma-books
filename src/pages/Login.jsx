@@ -16,7 +16,7 @@ const Register = () => {
           <h3>Login to your account</h3>
         </div>
         <div className="inputs">
-          <label htmlFor="">E-mail</label>
+          <label htmlFor="">E-mail or Phone Number</label>
           <input
             type="text"
             value={email}

@@ -23,7 +23,7 @@ const Register = () => {
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
           />
-          <label htmlFor="">E-mail</label>
+          <label htmlFor="">E-mail or Phone Number</label>
           <input
             type="text"
             value={email}
